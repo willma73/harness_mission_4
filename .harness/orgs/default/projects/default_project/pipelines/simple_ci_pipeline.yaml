@@ -27,7 +27,7 @@ pipeline:
             type: KubernetesDirect
             spec:
               connectorRef: account.mrichards_build_farm_connector
-              namespace: harness-deletgate-ng
+              namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
